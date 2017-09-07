@@ -1,0 +1,45 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "rest_for_test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grudina"
+  },
+  "author": "vsevolod",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "crypto": "^1.0.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.2.2",
+    "koa-router": "^7.2.1",
+    "minorm": "^0.1.0",
+    "moment": "^2.18.1",
+    "nodemon": "^1.12.0",
+    "squel": "^5.11.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-nodejs6": "^1.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "eslint-plugin-flowtype": "^2.19.0",
+    "eslint-plugin-react": "^6.3.0",
+    "flow-bin": "^0.42.0",
+    "isparta": "^4.0.0",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2"
+  }
+}
