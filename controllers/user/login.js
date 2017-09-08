@@ -32,7 +32,7 @@ async function login(ctx) {
     ctx.response.body = {
       success: true,
       data: user,
-      token
+      token: `Bearer ${token}`
     }
   } catch(err) {
     console.log(err)

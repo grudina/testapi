@@ -35,7 +35,9 @@ async function register(ctx) {
     }).save()
     ctx.response.status = 200
     ctx.response.body = {
-      
+      user: savedUser,
+      success: true,
+      token: `Bearer ${token}`
     }
   } catch(err) {
     console.log(err)
