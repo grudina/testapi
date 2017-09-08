@@ -26,5 +26,13 @@ export default {
         user
       }
     }
+  },
+  async validateLogin(value) {
+    const result = await manager.startQuery().select()
+      .field('login')
+      .from('users')
+      .where('login = ?', value)
+      .execute()
+    return result
   }
 }

@@ -16,6 +16,7 @@
   "dependencies": {
     "bcrypt": "^1.0.3",
     "crypto": "^1.0.1",
+    "input-filter": "0.0.22",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
     "koa-jwt": "^3.2.2",
